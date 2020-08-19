@@ -40,7 +40,7 @@ def get_user_config():
 
 def main():
     # import all locales
-    locale.setlocale(locale.LC_ALL, '')
+    locale.setlocale(locale.LC_ALL, 'en_GB.UTF-8')
     # ---- configuration ---
     conf = get_user_config()
     bar = conf['bar']
